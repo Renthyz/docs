@@ -43,9 +43,9 @@
 
     "anchors": [
         {
-            "name": "NFTs Modules",
-            "icon": "rectangle-terminal",
-            "url": "nft-modules"
+            "name": "Community",
+            "icon": "discord",
+            "url": "https://discord.com/invite/hop"
         }
     ],
 
@@ -55,8 +55,14 @@
             "pages": [ "general/introduction", "general/high-performance", "general/supported-platforms-and-chains" ]
         },
         {
-            "group": "NFTs Modules",
-            "pages": [ "nft-modules/introduction" ]
+            "group": "DeFi Modules",
+            "pages": [ "defi-modules/introduction", {
+                    "group": "Solana",
+                    "pages": [
+                        "defi-modules/solana/raydium",
+                        "defi-modules/solana/orca"
+                    ]
+                } ]
         }
     ],
 
