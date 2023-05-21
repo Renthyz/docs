@@ -55,6 +55,16 @@
             "pages": [ "general/introduction", "general/high-performance", "general/supported-platforms-and-chains" ]
         },
         {
+            "group": "NFT Modules",
+            "pages": [ "nft-modules/introduction", {
+                    "group": "Solana",
+                    "pages": [
+                        "nft-modules/solana/magiceden-minting",
+                        "nft-modules/solana/magiceden-sniping"
+                    ]
+                } ]
+        },
+        {
             "group": "DeFi Modules",
             "pages": [ "defi-modules/introduction", {
                     "group": "Solana",
