@@ -1,63 +1,73 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Documentation Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.png",
-    "light": "/logo/light.png"
-  },
-  "favicon": "/favicon.png",
-  "colors": {
-    "primary": "#0069ED",
-    "light": "#4D9CFF",
-    "dark": "#0050B4"
-  },
-  "topbarLinks": [
-    {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+    "name": "Mazari",
+
+    "logo": {
+        "dark": "/logo/dark.png",
+        "light": "/logo/light.png"
+    },
+
+
+    "favicon": "/favicon.png",
+
+    "colors": {
+        "primary": "#6862D3",
+        "light": "#B589ED",
+        "dark": "#7f56d9",
+        "anchors": {
+            "from": "#B589ED",
+            "to": "#6862D3"
+        }
+    },
+
+    "topbarCtaButton": {
+        "name": "Sign Up for Beta",
+        "url": "https://whop.com/mazari?accessPassId=prod_T2qeYYFLo2ztf"
+    },
+
+
+    "topbarLinks": [
+        {
+            "name": "Discord",
+            "url": "https://discord.gg/F2RYcPyrbA"
+        },
+        {
+            "name": "Dashboard",
+            "url": "https://hub.rivet.gg/developer/dashboard"
+        }
+    ],
+
+    "topAnchor": {
+        "name": "Overview",
+        "icon": "book-open"
+    },
+
+    "anchors": [
+        {
+            "name": "NFTs Modules",
+            "icon": "rectangle-terminal",
+            "url": "nft-modules"
+        }
+    ],
+
+    "navigation": [
+        {
+            "group": "Overview",
+            "pages": [ "general/introduction", "general/high-performance", "general/supported-platforms-and-chains" ]
+        },
+        {
+            "group": "NFTs Modules",
+            "pages": [ "nft-modules/introduction" ]
+        }
+    ],
+
+    "backgroundImage": "/images/background.png",
+
+    "footerSocials": {
+        "twitter": "https://twitter.com/renthxz",
+        "discord": "https://discord.gg/F2RYcPyrbA"
+    },
+
+    "modeToggle": {
+        "default": "dark"
     }
-  ],
-  "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
-  },
-  "anchors": [
-    {
-      "name": "API Reference",
-      "icon": "rectangle-terminal",
-      "url": "api-reference"
-    },
-    {
-      "name": "Changelog",
-      "icon": "list",
-      "url": "https://mintlify.com"
-    },
-    {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://mintlify.com/community"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Home",
-      "pages": ["introduction", "features"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
-      ]
-    }
-  ],
-  "footerSocials": {
-    "twitter": "https://twitter.com/renthxz",
-  }
 }
